@@ -61,7 +61,11 @@ final public class HeaderV1 implements Header {
     }
 
     @Override
+<<<<<<< HEAD
     public Map<String, String> getHeaderData() {
+=======
+    public Map<String, String> getData() {
+>>>>>>> 05bcd1b2e3e7cfc492bb3208bee7973fb632b03e
         return Collections.emptyMap();
     }
 
